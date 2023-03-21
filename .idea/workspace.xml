@@ -4,6 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="c4e555a3-bf4b-4140-b470-2413d8cc70f1" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
@@ -16,11 +17,15 @@
       <change afterPath="$PROJECT_DIR$/src/main/java/org/larbcorp/models/Product.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
+=======
+    <list default="true" id="6b12e44c-52f1-4924-b4f6-0d6e553fb1bb" name="Changes" comment="" />
+>>>>>>> main
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+<<<<<<< HEAD
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -73,6 +78,10 @@
       <option name="presentableId" value="Default" />
       <updated>1679382293436</updated>
     </task>
+=======
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="TaskManager">
+>>>>>>> main
     <servers />
   </component>
 </project>

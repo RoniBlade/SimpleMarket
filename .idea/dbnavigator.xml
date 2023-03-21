@@ -5,12 +5,15 @@
     <value-preview-text-wrapping value="false" />
     <value-preview-pinned value="false" />
   </component>
+<<<<<<< HEAD
   <component name="DBNavigator.Project.DatabaseBrowserManager">
     <autoscroll-to-editor value="false" />
     <autoscroll-from-editor value="true" />
     <show-object-properties value="true" />
     <loaded-nodes />
   </component>
+=======
+>>>>>>> main
   <component name="DBNavigator.Project.DatabaseConsoleManager">
     <connection id="90617f2f-cdf6-494d-9d35-c8cb3d9dab5d">
       <console name="Connection" type="STANDARD" schema="marketDB" session="Main" />
@@ -22,10 +25,13 @@
   <component name="DBNavigator.Project.DatabaseFileManager">
     <open-files />
   </component>
+<<<<<<< HEAD
   <component name="DBNavigator.Project.ObjectQuickFilterManager">
     <last-used-operator value="EQUAL" />
     <filters />
   </component>
+=======
+>>>>>>> main
   <component name="DBNavigator.Project.Settings">
     <connections>
       <connection id="90617f2f-cdf6-494d-9d35-c8cb3d9dab5d" active="true" signed="true">
