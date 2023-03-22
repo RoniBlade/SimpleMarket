@@ -13,19 +13,20 @@
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
     <connection id="90617f2f-cdf6-494d-9d35-c8cb3d9dab5d">
-      <console name="Connection" type="STANDARD" schema="marketDB" session="Main" />
+      <console name="Connection" type="STANDARD" schema="public" session="Main"><![CDATA[select * from account;]]></console>
     </connection>
   </component>
   <component name="DBNavigator.Project.DatabaseEditorStateManager">
     <last-used-providers />
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
-    <open-files>
-      <object connection-id="90617f2f-cdf6-494d-9d35-c8cb3d9dab5d" object-ref="schemas/public/tables/account" />
-    </open-files>
+    <open-files />
   </component>
   <component name="DBNavigator.Project.DatasetFilterManager">
     <filter-actions connection-id="90617f2f-cdf6-494d-9d35-c8cb3d9dab5d" dataset="public.account" active-filter-id="EMPTY_FILTER" />
+  </component>
+  <component name="DBNavigator.Project.ExecutionManager">
+    <retain-sticky-names value="false" />
   </component>
   <component name="DBNavigator.Project.ObjectQuickFilterManager">
     <last-used-operator value="EQUAL" />
@@ -515,5 +516,8 @@
         </visibility-settings>
       </environment>
     </general-settings>
+  </component>
+  <component name="DBNavigator.Project.StatementExecutionManager">
+    <execution-variables />
   </component>
 </project>

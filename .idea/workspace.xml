@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4aabdd63-c65c-4436-ad31-0ed7f677f463" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/larbcorp/exceptions/UserNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/larbcorp/exceptions/UsernameNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/larbcorp/models/Notification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/larbcorp/repositories/NotificationRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/larbcorp/security/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/larbcorp/security/details/CustomUserDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/larbcorp/security/details/CustomUserDetailsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/larbcorp/services/NotificationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/larbcorp/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/larbcorp/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/larbcorp/controllers/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/larbcorp/controllers/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/larbcorp/models/Discount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/larbcorp/models/Discount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/larbcorp/models/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/larbcorp/models/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/larbcorp/models/Purchase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/larbcorp/models/Purchase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/larbcorp/models/Review.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/larbcorp/models/Review.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/larbcorp/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/larbcorp/models/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/larbcorp/repositories/DiscountRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/larbcorp/repositories/DiscountRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/larbcorp/repositories/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/larbcorp/repositories/ProductRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/larbcorp/repositories/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/larbcorp/repositories/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/larbcorp/services/DiscountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/larbcorp/services/DiscountService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/larbcorp/services/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/larbcorp/services/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/larbcorp/services/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/larbcorp/services/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/larbcorp/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/larbcorp/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/larbcorp/models/Discount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/larbcorp/models/Product.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2NMb6KHF1RMR80zm7GnziMBbIjt" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/Адам/Documents/JavaApps/Company Test Tasks/EffectiveMobileTask/src/main/java/org/larbcorp"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Адам\Documents\JavaApps\Company Test Tasks\EffectiveMobileTask\src\main\java\org\larbcorp" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.larbcorp.exceptions" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.larbcorp.Main" />
+      <module name="demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.larbcorp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4aabdd63-c65c-4436-ad31-0ed7f677f463" name="Changes" comment="" />
+      <created>1679476742888</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1679476742888</updated>
+    </task>
+    <servers />
+  </component>
+</project>

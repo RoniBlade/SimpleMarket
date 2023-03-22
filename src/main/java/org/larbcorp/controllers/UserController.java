@@ -1,54 +1,52 @@
 package org.larbcorp.controllers;
 
+import lombok.RequiredArgsConstructor;
 import org.larbcorp.models.User;
 import org.larbcorp.services.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.DeleteMapping;
-import org.springframework.web.bind.annotation.PutMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
+import java.math.BigDecimal;
 import java.util.List;
 
 @RestController
+@RequiredArgsConstructor
 @RequestMapping("/users")
 public class UserController {
-
-    @Autowired
-    private UserService userService;
-
-    @PostMapping
-    public User createUser(@RequestBody User user) {
-        return userService.createUser(user);
+    private final UserService userService;
+    @GetMapping("/{user-id}")
+    public User getUserByUsername(@PathVariable("user-id") Long id) {
+        return userService.getUser(id);
     }
 
-    @GetMapping("/{id}")
-    public User getUserById(@PathVariable Long id) {
-        return userService.getUserById(id);
-    }
-
-    @PutMapping("/{id}")
-    public User updateUser(@PathVariable Long id, @RequestBody User user) {
-        return userService.updateUser(id, user);
-    }
-
-    @GetMapping
+    @GetMapping()
     public List<User> getAllUsers() {
         return userService.getAllUsers();
     }
 
-    @DeleteMapping("/{id}")
-    public void deleteUser(@PathVariable Long id) {
-        userService.deleteUser(id);
-    }
-
-    @GetMapping("/username/{username}")
-    public User getUserByUsername(@PathVariable String username) {
-        return userService.getUserByUsername(username);
-    }
+//    @PostMapping
+//    public User addUser(@RequestBody User user) {
+//        return userService.addUser(user);
+//    }
+//
+//    @DeleteMapping("/{userId}")
+//    public void delete(@PathVariable Long userId) {
+//        userService.delete(userId);
+//    }
+//
+//    @PutMapping("/{userId}/freeze")
+//    public void freeze(@PathVariable Long userId) {
+//        userService.freeze(userId);
+//    }
+//
+//    @PutMapping("/{userId}/unfreeze")
+//    public void unfreeze(@PathVariable Long userId) {
+//        userService.unfreeze(userId);
+//    }
+//
+//    @PutMapping("/{userId}/balance")
+//    public void addBalance(@PathVariable Long userId, @RequestParam BigDecimal amount) {
+//        userService.addBalance(userId, amount);
+//    }
 }
 
